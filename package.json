@@ -1,0 +1,16 @@
+{
+  "name": "comic-sender",
+  "version": "1.0.0",
+  "description": "send zits comic to my email",
+  "main": "send-comic.js",
+  "scripts": {
+    "start": "node send-comic.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^9.6.0",
+    "nodemailer": "^2.6.4"
+  }
+}
